@@ -22,7 +22,7 @@ phases:
       - echo Running Post Build Finally...
 artifacts:
   files:
-    - target/adhound.war # Gets all of the files in the base-directory.
+    - target/index.html # Gets all of the files in the base-directory.
     - appspec.yml
   base-directory: ./ # Project directory location.
   discard-paths: no # If yes it will remove the directory structure and place all files in project root directory.
